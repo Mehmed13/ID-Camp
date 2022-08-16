@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Dicoding Font";
+    src: url('FILE-FONT.TTF');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: 800;
+    color: red;
+}
+
+
+/* Gambar */
+
+.featured-images {
+    width: 100%;
+    height: 300px;
+}
+
+
+/*Aside*/
+
+aside {
+    text-align: center;
+}
+
+aside table {
+    text-align: left;
+}
+
+footer {
+    padding: 15px;
+    color: white;
+    background-color: #004488;
+    text-align: center;
+    font-weight: bold;
+}
