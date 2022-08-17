@@ -69,8 +69,54 @@ body {
     color: white;
 }
 
+
+/* riwayat */
+
+.history {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    overflow: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+#clear-history {
+    background-color: red;
+    cursor: pointer;
+    opacity: .7;
+    text-align: center;
+    padding: 10px;
+}
+
+#clear-history:hover {
+    opacity: 1;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 16px;
+}
+
+th {
+    background-color: aqua;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #a0e6f5;
+}
+
 @media screen and (max-width:513px) {
     .button {
         padding: 10px;
+    }
+    .history {
+        width: 100%;
     }
 }
