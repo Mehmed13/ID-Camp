@@ -33,6 +33,7 @@ nav {
     background-color: #06283D;
     position: sticky;
     top: 0;
+    padding: 0 60px;
 }
 
 .nav-buttons {
@@ -52,14 +53,42 @@ nav {
 
 /* jumbotron */
 
+.jumbotron {
+    /* background: linear-gradient(180deg, #DFF6FF, #47B5FF); */
+    background-color: #47B5FF;
+    padding: 0 60px;
+}
+
 
 /* main */
 
 
 /* article */
 
+article {
+    /* background-image: url("assets/img/article_bg.png"); */
+    background-color: #47B5FF;
+    object-fit: cover;
+    padding: 0 60px;
+}
+
 
 /* aside */
 
+aside {
+    /* background-image: url("assets/img/aside_bg.png"); */
+    /* background: linear-gradient(180deg, #47B5FF, #DFF6FF); */
+    background-color: #47B5FF;
+    padding: 0 60px;
+}
+
 
 /* footer */
+
+footer {
+    background-color: #06283D;
+    height: 70px;
+    color: white;
+    text-align: center;
+    padding: 25px 60px;
+}
