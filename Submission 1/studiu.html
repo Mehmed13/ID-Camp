@@ -11,16 +11,22 @@
 </head>
 
 <body>
-    <header>
+    <header id="Home">
         <nav><img src="assets/img/studiu_logo.png" alt="logo studiu">
-            <div class="nav-buttons">Home</div>
-            <div class="nav-buttons product">Product</div>
-            <div class="nav-buttons">About Me</div>
+            <a href="#Home">
+                <div class="nav-buttons"> Home</div>
+            </a>
+            <a href="#Product">
+                <div class="nav-buttons product">Product</div>
+            </a>
+            <a href="#About Me">
+                <div class="nav-buttons">About Me</div>
+            </a>
         </nav>
         <div class="jumbotron">
             <img src="assets/img/jumbotron_cartoon.png" alt="kartun programming">
             <div class="punchline">
-                <p>The Best Informatics Course in Indonesia</p>
+                <h1>The Best Informatics Course in Indonesia</h1>
                 <div class="start">
                     <p>Get Started</p>
                 </div>
@@ -28,38 +34,48 @@
         </div>
     </header>
     <main>
-        <article>
+        <article id="Product">
             <div class="wrapper-product">
-                <div class="product AI">
-                    <img src="assets/img/AI_icon.png" alt="AI Icon">
-                    <h3>Artificial Intelligence</h3>
+                <div class="products AI">
+                    <div class="title-product">
+                        <img src="assets/img/AI_icon.png" alt="AI Icon">
+                        <h3>Artificial Intelligence</h3>
+                    </div>
                     <ul>
                         <li>Algorithms and Machine Learning</li>
                         <li>Neural Networks and Deep Learning</li>
                         <li>Computer Vision and Robotics</li>
                     </ul>
                 </div>
-                <div class="product DataScience">
-                    <img src="assets/img/datascience_icon.png" alt="Data Science Icon">
-                    <h3>Data Science</h3>
+                <div class="products DataScience">
+                    <div class="title-product">
+                        <img src="assets/img/datascience_icon.png" alt="Data Science Icon">
+                        <h3>Data Science</h3>
+                    </div>
                     <ul>
                         <li>Relational Database & SQL</li>
                         <li>Data Visualization</li>
                         <li>Statistics, Probability, Linear Algebra</li>
                     </ul>
                 </div>
-                <div class="product Cyber">
-                    <img src="assets/img/cyber_icon.png" alt="Cyber Security Icon">
-                    <h3>Cyber Security</h3>
+            </div>
+            <div class="wrapper-product">
+                <div class="products Cyber">
+                    <div class="title-product">
+                        <img src="assets/img/cyber_icon.png" alt="Cyber Security Icon">
+                        <h3>Cyber Security</h3>
+                    </div>
                     <ul>
                         <li>Cyber Threats</li>
                         <li>Network Security Basics</li>
                         <li>Cryptography</li>
                     </ul>
                 </div>
-                <div class="product Mobile">
-                    <img src="assets/img/mobile_icon.png" alt="Mobile Apps Dev Icon">
-                    <h3>Mobile Apps Dev</h3>
+                <div class="products Mobile">
+                    <div class="title-product">
+                        <img src="assets/img/mobile_icon.png" alt="Mobile Apps Dev Icon">
+                        <h3>Mobile Apps Dev</h3>
+                    </div>
                     <ul>
                         <li>Designing Mobile Apps</li>
                         <li>Preparing Mobile Apps</li>
@@ -70,13 +86,12 @@
         </article>
 
         <aside>
-            <h2>About Me</h2>
+            <h2 id="About Me">About Me</h2>
             <div class="biodata">
                 <img src="assets/img/biodata_photo.png" alt="">
                 <h3>Muhammad Fadhil Amri</h3>
                 <p>I am an undergraduate student of Computer Science Major. I live in Bandung. By joining this bootcamp, i hope i can learn how to be a web development expert. </p>
-            </div>
-        </aside>
+            </div </aside>
     </main>
     <footer>Copyright &copy; 2022 Studiu - All Right Reserved PT. Amree Indonesia</footer>
     <script src="studiu.js"></script>
